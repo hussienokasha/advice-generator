@@ -1,0 +1,23 @@
+:root {
+  --NeonGreen: hsl(150, 100%, 66%);
+  --background-color: hsl(218, 23%, 16%);
+  --box-color: hsl(217, 19%, 24%);
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--background-color) !important;
+}
+.advice-id {
+  color: var(--NeonGreen);
+}
+button {
+  background-color: var(--NeonGreen);
+  border: 0;
+}
+.box {
+  background-color: var(--box-color);
+}
+.advice {
+  font-size: 28px;
+  font-weight: 800;
+}
